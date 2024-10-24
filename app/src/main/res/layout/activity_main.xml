@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Etiquetas y cajas de texto -->
+    <TextView android:text="Marca" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editMarca" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Modelo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editModelo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Código" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editCodigo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Costo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editCosto" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Peso" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editPeso" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Tamaño" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editTamano" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Dimensiones" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editDimensiones" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <!-- Botones -->
+    <Button android:id="@+id/btnAgregar" android:text="Agregar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnMostrar" android:text="Mostrar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnLimpiar" android:text="Limpiar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <!-- TextView para mostrar la información -->
+    <TextView android:id="@+id/textResultado" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Resultado"/>
+
+</LinearLayout>
