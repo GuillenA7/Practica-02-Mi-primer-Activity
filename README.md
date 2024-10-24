@@ -1,4 +1,4 @@
-## Práctica 02 - Mi primer Activity
+# Práctica 02 - Mi primer Activity
 
 ## Instrucciones:  
 * Implementar en Android Studio empleando el paradigma orientado a objetos y una Activity (interfaz gráfica).
